@@ -13,8 +13,8 @@ function Projects() {
      {/* Projects container */}
      <div className='px-2 mx-3 my-6 md:mx-[140px]  md:gap-6 flex flex-col  md:grid md:grid-cols-2 md:place-content-cnter '>
 
-          <Slide bottom >
-
+                <Slide bottom>
+                    
                 {/*  card 1 */}
             <div className='bg-gray-50  mb-4 w-full h-[450px] shadow-md' >
                 <div>
@@ -95,7 +95,7 @@ function Projects() {
 
 
             </div>
-          </Slide>
+                </Slide>
 
 
      </div>
