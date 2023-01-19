@@ -1,8 +1,8 @@
 import React from 'react'
-import lemka from '../assets/images/lemka.png'
-import pchat from '../assets/images/pchat.png'
+import lemka from '../assets/images/lemka.jpg'
+import pchat from '../assets/images/pchat.jpg'
 import baHardware from '../assets/images/baHardware.jpeg'
-import Bafrica from '../assets/images/Bafrica.png'
+import Bafrica from '../assets/images/Bafrica.jpg'
 import Slide from 'react-reveal/Slide';
 
 function Projects() {
