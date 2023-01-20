@@ -42,7 +42,7 @@ function Projects() {
                 </div>
 
                 <div className='m-3 flex flex-col gap-2'>
-                    <p className='text-center'>Lemka Estate Agents</p>
+                    <p className='text-center'>Pchat</p>
                     <p >
                         Social and chat app.
                     </p>
