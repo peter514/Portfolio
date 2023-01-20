@@ -6,7 +6,7 @@ import mobile from '../assets/graphics/mobile.webp'
 
 function Services() {
   return (
-    <div className='bg-secondary pb-5'>
+    <div className='bg-secondary py-8'>
             <h1 className='text-center font-bold mb-4 py-4' >Services</h1>
 
             {/* services container */}

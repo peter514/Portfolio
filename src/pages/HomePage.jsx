@@ -9,6 +9,7 @@ import Footer from '../components/Footer'
 import Typed from 'react-typed'
 import Slide from 'react-reveal/Slide';
 import { Link as LinkS } from 'react-scroll'
+import bgimage from '../assets/graphics/herob.jpg'
 
 function HomePage() {
   return (
@@ -18,7 +19,7 @@ function HomePage() {
       </div>
 
       {/* hero section  */}
-      <div id='home' className="bg-[url('src/assets/graphics/herob.jpg')] h-[100vh] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-opacity-70 bg-[#2c2f3062]  ">
+      <div id='home' className="bg-heroBg h-[100vh] bg-cover bg-center bg-no-repeat bg-blend-overlay bg-opacity-70 bg-[#2c2f3062]  ">
         <div className="pt-[90px] flex justify-between mx-3 md:mx-[200px] items-center  text-white ">
            <Slide left cascade>
 
