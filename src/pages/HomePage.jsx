@@ -34,7 +34,7 @@ function HomePage() {
                 <Typed
                   className="font-bold text-[25px]"
                   strings={[
-                    'Frondend dev',
+                    'Frontend dev',
                     'Backend dev',
                     'Scalable applications'
                   ]}
