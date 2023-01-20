@@ -17,14 +17,14 @@ import Slide from 'react-reveal/Slide';
 
 function Skills() {
   return (
-    <div className='' >
+    <div className='py-10' >
         <h1 className='text-center font-bold m-2' >My skills and Tech stack</h1>
         <div className='px-2 mx-3 my-6 md:mx-[140px] md:gap-6 flex flex-col  md:grid md:grid-cols-3 md:place-content-cnter '>
 
             <Slide bottom >
 
             {/*  card 1 */}
-            <div className='bg-gray-50 m-3 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
                 <div>
                     <img src={frontend} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -49,7 +49,7 @@ function Skills() {
             </div>
 
               {/*  card 2 */}
-            <div className='bg-gray-50 m-3 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50 mb-4 w-full h-[340px] shadow-xl' >
                 <div>
                     <img src={backend} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -74,7 +74,7 @@ function Skills() {
             </div>
 
              {/*  card 3 */}
-            <div className='bg-gray-50 m-3 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
                 <div>
                     <img src={database} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -99,7 +99,7 @@ function Skills() {
             </div>
 
              {/*  card 4*/}
-            <div className='bg-gray-50 m-3 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
                 <div>
                     <img src={tools} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -121,7 +121,7 @@ function Skills() {
             </div>
 
              {/*  card 5*/}
-            <div className='bg-gray-50 m-3 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
                 <div>
                     <img src={apps} alt="" className='w-full h-[150px] ' />
                 </div>

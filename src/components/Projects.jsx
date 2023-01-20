@@ -7,7 +7,7 @@ import Slide from 'react-reveal/Slide';
 
 function Projects() {
   return (
-    <div className='mt-5'>
+    <div className='mt-5 py-10'>
      <h1 className='text-center font-bold' >Projects</h1>
 
      {/* Projects container */}
@@ -26,7 +26,7 @@ function Projects() {
                     <p>
                         Property managemnet system.
                     </p>
-                    <a href='https://lemka.info' target={"_blank"} className=" outline-none ">
+                    <a href='https://realestate-ylrw.onrender.com/' target={"_blank"} className=" outline-none ">
                         lemka.info
                     </a>
                    
