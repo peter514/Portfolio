@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import { MdMenu, MdClose } from 'react-icons/md'
 import { Link as LinkS } from 'react-scroll'
+import Logo from '../assets/graphics/logo.png'
 
 function NavBar() {
   const [mobileMenu, setMobileMenu] = useState(false)
@@ -22,9 +23,11 @@ function NavBar() {
   }, [scrolled]);
 
   return (
-    <div className={`fixed top-0 right-0 left-0  z-10 bg-opacity-70 ${scrolled ? 'bg-gray-400 bg-opacity-100' : 'bg-opacity-0'}`}>
+    <div className={`fixed top-0 right-0 left-0  z-10 bg-opacity-70 ${scrolled ? 'bg-secondary bg-opacity-100' : 'bg-opacity-0'}`}>
       <div className="flex justify-between items-center px-6 py-4  ">
-        <div className="font-bold text-xl text-primary">Developer</div>
+        <div className="font-bold text-xl text-primary">
+          <img src={Logo} alt="logo" className='w-[] h-[40px] ' />
+        </div>
         <div className="mr-[90px] opac ">
           <ul className="hidden md:flex gap-5  text-primary font-semibold text-opacity-100 ">
             <li className=" px-2 py-1 hover:border-b border-b-primary ">
