@@ -57,6 +57,7 @@ function Services() {
                 <div className='flex justify-center items-center mt-2'>
                     <img src={mobile} alt="" className='w-[100px] h-[100px] ' />
                 </div>
+                
 
                 <div className='m-3 flex flex-col'>
                     <p className='text-center'>Mobile App Development</p>
