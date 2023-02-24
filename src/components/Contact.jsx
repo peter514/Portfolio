@@ -9,7 +9,6 @@ import PulseLoader from 'react-spinners/PulseLoader'
 import { toast } from 'react-toastify'
 import axiosPrivate from '../api/axios.jsx'
 
-
 function Contact() {
   const {
     register,
@@ -48,14 +47,15 @@ function Contact() {
     if (!data.message) {
       toast.warn('Please type a message!')
     } else {
-         messageMutation(data)
+      messageMutation(data)
       console.log(data)
     }
   }
 
   return (
     <div className="bg-gray-100 py-10">
-      <h1 className="text-center font-bold m-2">Contact </h1>
+      <h1 className="text-center font-bold ">Contact </h1>
+      <h1 className="text-center text-primary mb-8">______________</h1>
 
       <div className="px-2 mx-3   md:mx-[140px] md:gap-6 flex flex-col  md:grid md:grid-cols-2 md:place-content-cnter ">
         <Slide left>
@@ -110,7 +110,7 @@ function Contact() {
                   <div className="flex flex-col gap-3">
                     <h1 htmlFor="">Phone </h1>
                     <input
-                    required
+                      required
                       type="number"
                       placeholder="Enter number"
                       className="p-1 w-full border border-gray-200 outline-none"
@@ -132,19 +132,16 @@ function Contact() {
                   </div>
 
                   <div className="flex flex-col justify-center items-center w-full m-2">
-                    {
-                        loadingSendMessage ? <div>
-                   <PulseLoader
-                  color="#ff1616"
-                  size={15}                
-                />
-              </div>
-              :
-                    <input
-                      type="submit"
-                      className="bg-primary text-gray-200 rounded-md hover:bg-white hover:text-gray-900 hover:border hover:border-primary w-[30%] p-2 outline-none"
-                    />
-                    }
+                    {loadingSendMessage ? (
+                      <div>
+                        <PulseLoader color="#ff1616" size={15} />
+                      </div>
+                    ) : (
+                      <input
+                        type="submit"
+                        className="bg-primary text-gray-200 rounded-md hover:bg-white hover:text-gray-900 hover:border hover:border-primary w-[30%] p-2 outline-none"
+                      />
+                    )}
                   </div>
                 </div>
               </form>

@@ -12,19 +12,20 @@ import {AiFillApi} from 'react-icons/ai'
 import {DiMongodb} from 'react-icons/di'
 import {RiTeamFill} from 'react-icons/ri'
 import {TbBrandReactNative} from 'react-icons/tb'
-import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 
 function Skills() {
   return (
     <div className='py-10' >
-        <h1 className='text-center font-bold m-2' >My skills and Tech stack</h1>
+        <h1 className='text-center font-bold ' >My skills and Tech stack</h1>
+        <h1 className='text-center text-primary pb-3'>______________</h1>
         <div className='px-2 mx-3 my-6 md:mx-[140px] md:gap-6 flex flex-col  md:grid md:grid-cols-3 md:place-content-cnter '>
 
-            <Slide bottom >
+            <Fade bottom >
 
             {/*  card 1 */}
-            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl hover:shadow-md hover:shadow-primary hover:bg-secondary' >
                 <div>
                     <img src={frontend} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -49,12 +50,12 @@ function Skills() {
             </div>
 
               {/*  card 2 */}
-            <div className='bg-gray-50 mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50 mb-4 w-full h-[340px] shadow-xl hover:shadow-md hover:shadow-primary hover:bg-secondary hover:scale-125' >
                 <div>
                     <img src={backend} alt="" className='w-full h-[150px] ' />
                 </div>
 
-                <div className='m-3 flex flex-col gap-4'>
+                <div className='m-3 flex flex-col gap-4 '>
                     <div className='flex  items-center gap-3 ' >
                        <span><DiNodejsSmall size={23} color="green" /></span>
                        <h1>Node JS (Express framework)</h1> 
@@ -74,7 +75,7 @@ function Skills() {
             </div>
 
              {/*  card 3 */}
-            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl hover:shadow-md hover:shadow-primary hover:bg-secondary' >
                 <div>
                     <img src={database} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -99,7 +100,7 @@ function Skills() {
             </div>
 
              {/*  card 4*/}
-            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl hover:shadow-md hover:shadow-primary hover:bg-secondary' >
                 <div>
                     <img src={tools} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -121,7 +122,7 @@ function Skills() {
             </div>
 
              {/*  card 5*/}
-            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl' >
+            <div className='bg-gray-50  mb-4 w-full h-[340px] shadow-xl hover:shadow-md hover:shadow-primary hover:bg-secondary' >
                 <div>
                     <img src={apps} alt="" className='w-full h-[150px] ' />
                 </div>
@@ -141,7 +142,7 @@ function Skills() {
 
 
             </div>
-            </Slide>
+            </Fade>
 
 
         </div>

@@ -9,6 +9,8 @@ function Projects() {
   return (
     <div className='mt-5 py-10'>
      <h1 className='text-center font-bold' >Projects</h1>
+                         <h1 className='text-center text-primary mb-8'>______________</h1>
+
 
      {/* Projects container */}
      <div className='px-2 mx-3 my-6 md:mx-[140px]  md:gap-6 flex flex-col  md:grid md:grid-cols-2 md:place-content-cnter '>
