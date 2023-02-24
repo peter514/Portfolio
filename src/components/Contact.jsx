@@ -8,6 +8,7 @@ import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import PulseLoader from 'react-spinners/PulseLoader'
 import { toast } from 'react-toastify'
 import axiosPrivate from '../api/axios.jsx'
+import { Link } from 'react-router-dom'
 
 function Contact() {
   const {
@@ -65,7 +66,7 @@ function Contact() {
               <span>
                 <HiOutlineMail size={23} color="brown" />
               </span>
-              <p>dev.petergachora@gmail.com</p>
+              <a href="mailto:dev.petergachora@gmail.com"  target="_blank" >dev.petergachora@gmail.com</a>
             </div>
             <div className="flex gap-2 justify-start items-center ">
               <span>
@@ -77,13 +78,13 @@ function Contact() {
               <span>
                 <AiOutlineTwitter size={23} color="blue" />
               </span>
-              <p>@PeterGachora1</p>
+              <a href='https://twitter.com/PeterGachora1?t=meJ7wJwISA_1-0pV_EpS4w&s=' target="_blank"  >@PeterGachora1</a>
             </div>
             <div className="flex gap-2 justify-start items-center ">
               <span>
                 <AiFillGithub size={23} color="black" />
               </span>
-              <p>Peter514</p>
+              <a href='https://github.com/peter514' target="_blak">Peter514</a>
             </div>
           </div>
         </Slide>
