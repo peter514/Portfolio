@@ -12,6 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         heroBg: "url('/src/assets/images/hero.jpg')"
+
       }
     },
   },
