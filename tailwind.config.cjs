@@ -11,7 +11,8 @@ module.exports = {
         tertiary: "#000"
       },
       backgroundImage: {
-        heroBg: "url('https://github.com/peter514/Portfolio/blob/main/src/assets/graphics/herob.jpg?raw=true')"
+        heroBg: "url('/src/assets/images/hero.jpg')"
+
       }
     },
   },

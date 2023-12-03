@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import webVextor from '../assets/graphics/heroo2.png'
+import webVextor from '../assets/images/rafik.png'
 import Skills from '../components/Skills'
 import Services from '../components/Services'
 import Projects from '../components/Projects'
@@ -25,17 +25,18 @@ function HomePage() {
 
           <div className="">
             <div className="">
-              <p className="text-[40px] mb-3 font-bold text-primary">Fullstack developer</p>
+              <p className="text-[40px] mb-3 font-bold text-primary">Hello, I'm Peter Gachora,</p>
+              <p className="text-[40px] mb-3 font-bold text-primary">Software <span className='text-white' >Developer</span></p>
               <h1 className=" ">
-                Hi, I'm Peter Gachora, a software developer. I like to craft
-                solid and scalable products with great user experience.
+              Versatile fullstack developer skilled in React, React Native, and Node.js, crafting dynamic and seamless web and mobile solutions.
               </h1>
-              <div className='mt-5'>
+              <div className='mt-5 flex flex-col md:flex-row items-center'>
+                <h1>Hire me and lets create:</h1>
                 <Typed
                   className="font-bold text-[25px]"
                   strings={[
-                    'Frontend dev',
-                    'Backend dev',
+                    'Modern UI/UX designs',
+                    'Digital solutions',
                     'Scalable applications'
                   ]}
                   typeSpeed={80}
@@ -78,8 +79,8 @@ function HomePage() {
            </Slide>
            <Slide right cascade>
 
-          <div className="hidden md:flex flex-col  ">
-            <img src={webVextor} alt="" className="" />
+          <div className="hidden lg:flex flex-col ">
+            <img src={webVextor} alt="" className=" h-[400px] w-[500px]" />
           </div>
            </Slide>
         </div>

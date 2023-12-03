@@ -140,7 +140,8 @@ function Contact() {
                     ) : (
                       <input
                         type="submit"
-                        className="bg-primary text-gray-200 rounded-md hover:bg-white hover:text-gray-900 hover:border hover:border-primary w-[30%] p-2 outline-none"
+                        value={'Send'}
+                        className="bg-primary cursor-pointer text-gray-200 rounded-md hover:bg-white hover:text-gray-900 hover:border hover:border-primary w-[30%] p-2 outline-none"
                       />
                     )}
                   </div>

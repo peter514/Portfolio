@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://pchat-api.onrender.com';
+const BASE_URL = 'https://portfolio.kenyanexperience.com';
+
 
 export default axios.create({
     baseURL: BASE_URL

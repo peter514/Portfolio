@@ -48,7 +48,7 @@ function NavBar() {
   return (
     <div
       className={`fixed top-0 right-0 left-0  z-10 bg-opacity-70 ${
-        scrolled ? 'bg-secondary bg-opacity-100' : 'bg-opacity-0'
+        scrolled ? 'bg-black bg-opacity-40' : 'bg-opacity-0'
       }`}
     >
       <div className="flex justify-between items-center px-6 py-4  ">
