@@ -11,7 +11,7 @@ module.exports = {
         tertiary: "#000"
       },
       backgroundImage: {
-        heroBg: "url('https://i.ibb.co/0QWTkBp/herob.jpg')"
+        heroBg: "url('/src/assets/images/hero.jpg')"
       }
     },
   },
